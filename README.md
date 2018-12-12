@@ -3,12 +3,11 @@
 ## Objective
 The purpose of this exercise is to get a basic understanding of your skill level, how you organize your code, and how you make coding decisions.
 
+
 ## Instructions
 Please build the design comp provided (design.png) into a functioning, responsive web page using our requirements from the Build Page Checklist section below. Feel free to take your own liberties as far as interactions/animations, and making the site responsive.
 
-Colors, Typographic styles, and some component styles have been taken from the HCA Design System. You may use this resource for direction: http://hcadesignsystem.com/
-
-username: ```guest```, password: ```HealthcareInspired```
+Colors, Typographic styles, and some component styles have been taken from the HCA Design System. Please use this resource for direction: http://hcadesignsystem.com/
 
 Please do not use any external links (including CDN's).
 
@@ -18,19 +17,21 @@ Feel free to use placeholder text (such as your favorite version of Lorem Ipsum)
 
 Feel free to add comments within the code or attach a text document to explain any decisions made that may be of interest.
 
+
 ## Build Page Checklist
 Please include the following items in your code:
-- Bootstrap 3 library 
+- Latest Bootstrap library 
 - Multiple headings to show use of the HTML header hierarchy
 - At least one button
 - At least one glyphicon (the icons available in Bootstrap) and add a hover effect
 - Some content in an aside or sidebar element
 - An address and phone number (doesn’t have to be real contact information)
-- Trigger a bootstrap modal using javascript
 - Use the following features of the LESS or SASS languages:
     - Variable
     - Mixin
     - Import
+- Trigger a bootstrap modal using javascript
+- Inject content to DOM Elements using javascript i.e Lorem Ipsum
 
 
 ## Exercise Submission
@@ -39,6 +40,7 @@ Completed projects should be submitted in one of two ways:
 - Zip files (where files are all connected and can be viewed in browser from an index page); so if libraries are used, include them in the submitted zip file.
 
 *Submit the repository link or zip file to the same email address that sent you the test.*
+
 
 ## Thank You
 Thanks for taking the time to complete this exercise!
