@@ -20,7 +20,8 @@ Feel free to add comments within the code or attach a text document to explain a
 
 ## Build Page Checklist
 Please include the following items in your code:
-- Latest Bootstrap library 
+- Latest Bootstrap library
+    - use of grid system
 - Multiple headings to show use of the HTML header hierarchy
 - At least one button
 - At least one glyphicon (the icons available in Bootstrap) and add a hover effect
