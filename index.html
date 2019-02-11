@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Internship Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules\popper.js\dist\umd\popper.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+    <script src="./dist/app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Bootstrap 4 Modal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div id='modal-text' class="modal-body">
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button id="text-btn" type="button" class="btn btn-primary">Show Text</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <nav class="row">
+            <div class='col-2'>
+                <img src="./colorized-beechwood-logo.svg" id='logo'>
+            </div>
+            <div class='col-1'></div>
+            <ul class='col-7' id='navbar'>
+                <a href="#find">Find Care</a>
+                <a href="#pay">Pay a Bill</a>
+                <a href="#visitors">Patients and Visitors</a>
+                <a href="#careers">Career Opportunities</a>
+
+            </ul>
+
+            <span id='nav-icons' class="w3-padding w3-xlarge col-2"> 
+                    <i class="material-icons w3-xxlarge">search</i>
+                    <i class="material-icons w3-xxlarge">phone</i>
+                    <i class="material-icons w3-xxlarge">person</i>
+            </span>
+
+        </nav>
+
+    </header>
+    <hr id="nav-hr">
+    <div class="row">
+        <div class='col-1'></div>
+        <div class='title-bar col-11'>
+            <h1>Services We Offer</h1>
+
+            <div class='header-line'></div>
+                <div class='sub-title'>
+                    <i id='home-icon' class="material-icons">home</i> / Services We Offer
+                </div>
+            </div>
+    </div>
+
+    <main>
+         
+            <div class="row">
+                <div class="col-1"></div>
+                <div id='main-cards' class='col-7'>
+                    <h3>3 Services</h3>
+                    <div class='card flex-row'>
+                        <span class="card-text">
+                            <h2>Sport Medicine Wellness</h2>
+                            <h6>Rehabilitation</h6>
+                            <p>The beechwood Memorial Sports Medicine 
+                                Wellness Gym is a full service wellness 
+                                center including cardio equipment, free 
+                                weights and strength training equipment, a 
+                                therapy pool and experts to assist you in your 
+                                journey to getting healthy and staying fit
+                            </p>
+                            <a class='gray-link' href='#read'>Read more</a>
+                            <a class='blue-link' href='#join'>Join Now</a>
+                        </span>
+                        <span class="card-image">
+                            Placeholder image or graphic
+                        </span>
+                    </div>
+                    <div class='card flex-row'>
+                            <span class="card-text">
+                                <h2>Sport Medicine Wellness</h2>
+                                <h6>Rehabilitation</h6>
+                                <p>The beechwood Memorial Sports Medicine 
+                                        Wellness Gym is a full service wellness 
+                                        center including cardio equipment, free 
+                                        weights and strength training equipment, a 
+                                        therapy pool and experts to assist you in your 
+                                        journey to getting healthy and staying fit
+                                </p>
+                                <a class='gray-link' href='#read'>Read more</a>
+                                <a class='blue-link' href='#join'>Join Now</a>
+                            </span>
+                            <span class="card-image">
+                                Placeholder image or graphic
+                            </span>
+                        </div>
+
+                        <div class='card flex-row'>
+                            <span class="card-text">
+                                <h2>Sport Medicine Wellness</h2>
+                                <h6>Rehabilitation</h6>
+                                <p>The beechwood Memorial Sports Medicine 
+                                        Wellness Gym is a full service wellness 
+                                        center including cardio equipment, free 
+                                        weights and strength training equipment, a 
+                                        therapy pool and experts to assist you in your 
+                                        journey to getting healthy and staying fit
+                                    </p>
+                
+                                <a class='gray-link' href='#read'>Read more</a>
+                                <a class='blue-link' href='#join'>Join Now</a>
+                                </span>
+                            <span class="card-image">
+                                Placeholder image or graphic
+                            </span>
+                        </div>
+                    </div>
+                    
+            
+            <aside class='col-3'>
+                <h3>Aside Title</h3>
+                <div id="aside-card">
+                    <div class="aside-img">
+                        Placeholder Image
+                    </div>
+                    <div class="aside-text">
+                        <p>You can put any content you want 
+                            here. Aside lorem ipsum Sociis 
+                            natoque penatibus et magnis
+                            dis parturient montes, nascetur
+                            ridiculus mus. Nullam id dolor id nibh
+                            ultricies vehicula ut id elit. Lorem ipsum etiam
+                            porta sem malesuada magna mollis euismod</p>
+                            <a href="#action" class='gray-link'>Take Action</a>
+                            <button type="button" class="modal-button" data-toggle="modal" data-target="#exampleModal">
+                                Show Modal
+                            </button>
+                    </div>
+                </div>
+            </aside>
+            <div class="col-1"></div>
+        </div>
+       
+    </main>
+    <footer>1375 Alexandria Way, Cascada, FL 38576 Contact us at (729) 887-3759</footer>
+
+</body>
+</html>
+

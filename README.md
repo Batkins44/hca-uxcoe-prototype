@@ -45,3 +45,5 @@ Completed projects should be submitted in one of two ways:
 
 ## Thank You
 Thanks for taking the time to complete this exercise!
+# internship-exercise
+# hca-uxcoe-prototype
